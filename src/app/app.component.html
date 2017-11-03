@@ -1,0 +1,44 @@
+<div class="phone-container">
+  <div class="phone-image phone-container-items"><img src="../assets/images/PhoneFrame.png" /></div>
+  <div class="phone-container-items"><iframe id="equitise-video" src="https://www.youtube.com/embed/7gZdhiAM-L8" allowfullscreen frameborder="0"></iframe></div>
+</div>
+
+<div class="container">
+  <div class="message-container container jumbotron">
+    <h1 class="header-message"><strong>GET IN ON THE GROUND FLOOR WITH <b id="title"><i>XINJA</i></b></strong></h1>
+    <h2 class="header-message"><strong>AUSTRALIA’S FIRST DIGITAL BANK</strong></h2>
+    <div class="line"></div><br>
+    <p>
+      The Xinja partnership with Equitise, Australia’s first approved crowdfunding platform, has created an outstanding opportunity to provide you with investor level access to Australia’s first true digital bank.
+      This very limited time investment opportunity will be open to all Australians through Equitise in the imminent future. Investors will be able to invest amounts starting from $250 as part of a $500,000 capital raising contributing to Xinja’s current $15 million institutional investment round.
+      Xinja’s digital banking platform incorporates the best of modern banking technology and security as well as data analytics and AI services to continually evolve and enhance the customer experience and promote ongoing money mindfulness via the Xinja mobile app. Capital raised from the Equitise crowdfunding will go towards developing the next phase of Xinja’s core banking platform.
+    </p><br>
+    <h2 class="header-message"><strong>SO WHY IS THIS NOW POSSIBLE?</strong></h2>
+    <div class="line"></div><br>
+    <p>
+      Previously, federal rules regulating the formation of banks were restrictive with significant barrier to entry. These restrictions were lifted in the May 2017 budget when bank related licensing requirements were softened to encourage the banking sector to be modernised.
+      Xinja has applied for an approved deposit-taking institution (ADI) licence and on approval plans to launch its first prepaid card late this year before moving into the home loan and deposit account markets in mid-2018. Xinja is a great example of the implementation of disruptive technologies that will revolutionise banking in Australia, similar to digital banks that have launched overseas.
+      While this (solely) mobile-app driven business may be a new player in the Aussie banking landscape, similar business models have experienced massive success and huge growth abroad, particularly in the UK.
+      The actual investment offering will be available very soon through Equitise and you can register your interest now to make sure you’re invited to participate when the ‘deal room’ is open before the broader public market is invited.
+    </p>
+    <p><strong><i>Register below to ensure you have early access to this truly unique opportunity.</i></strong></p>
+    <div class="bottom-container">
+      <div class="user-container">
+        <div [innerHTML]="messageToUser" class="message-to-user"></div>
+        <div class="line"></div><br>
+        <form>
+          <p>Name<input class="user-input" #name></p>
+          <p>Email<input type="email" class="user-input" #email></p>
+          <br>
+          <button (click)="submit(name.value, email.value)" class="btn user-btn">Submit</button>
+        </form>
+      </div>
+      <div class="offers-container">
+        <h5><strong><b>Offers</b></strong></h5>
+        <div class="line"></div><br><br>
+        <button class="btn user-btn offer-btn">Live Offers</button><br><br><br>
+        <button class="btn user-btn offer-btn">Comming Soon!</button>
+      </div>
+    </div>
+  </div>
+</div>
