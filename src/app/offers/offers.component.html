@@ -2,7 +2,7 @@
   <h1>Coming Soon Offers!!!</h1>
   <hr>
   <form *ngIf="allOffers">
-    <input class="search-offer" #offerSearch>
+    <input class="search-offer" #offerSearch placeholder="Case Sensitive">
     <button class="btn search-btn" (click)="searchOffers(offerSearch.value)">Search</button>
     <button class="btn home-btn" (click)="homePage()">Home</button>
   </form>
