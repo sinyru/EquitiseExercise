@@ -22,6 +22,8 @@ THE SOFTWARE.
 
 @angular/core@4.4.6 MIT
 
+@angular/router@4.4.6 MIT
+
 @angular/common@4.4.6 MIT
 
 @angular/forms@4.4.6 MIT
