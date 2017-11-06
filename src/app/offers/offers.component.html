@@ -1,0 +1,25 @@
+<div class="container">
+  <h1>Coming Soon Offers!!!</h1>
+  <hr>
+  <form *ngIf="allOffers">
+    <input class="search-offer" #offerSearch>
+    <button class="btn search-btn" (click)="searchOffers(offerSearch.value)">Search</button>
+    <button class="btn home-btn" (click)="homePage()">Home</button>
+  </form>
+  <div *ngIf="!searchResult">
+    <div class="offer-container" *ngFor="let offer of comingSoonOffers">
+        <h5><i><u><b><strong>{{offer.name}}</strong></b></u></i></h5>
+        <div class="raised-amount">
+          <p>Raised Amount: ${{offer.raisedAmount}}</p>
+        </div>
+    </div>
+  </div>
+  <div *ngIf="searchResult">
+    <div class="offer-container" *ngFor="let offer of searchResult">
+        <h5><i><u><b><strong>{{offer.name}}</strong></b></u></i></h5>
+        <div class="raised-amount">
+          <p>Raised Amount: ${{offer.raisedAmount}}</p>
+        </div>
+    </div>
+  </div>
+</div>

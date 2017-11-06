@@ -1,0 +1,60 @@
+.offer-container {
+  width: 32%;
+  min-width: 200px;
+  height: 125px;
+  border-radius: 10px;
+  border: 1px solid orangered;
+  margin: 4px;
+  background: white;
+  display: inline-grid;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3px;
+  font-weight: bold;
+  border: 2px solid orangered;
+}
+
+.raised-amount {
+  opacity: 0;
+}
+
+.offer-container:hover .raised-amount {
+  opacity: 1;
+}
+
+.search-offer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.search-btn {
+  color: orangered;
+  border-radius: 10px;
+  border: 2px solid orangered;
+  font-weight: bold;
+}
+
+.search-btn:hover, .offer-container:hover {
+  color: white;
+  border: 2px solid white;
+  background: orangered;
+}
+
+.home-btn {
+  color: blue;
+  border-radius: 10px;
+  border: 2px solid blue;
+  font-weight: bold;
+}
+
+.home-btn:hover {
+  color: white;
+  border: 2px solid white;
+  background: blue;
+}

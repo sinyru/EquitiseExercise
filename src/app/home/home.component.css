@@ -1,0 +1,67 @@
+.header-message {
+  text-align: center;
+}
+.line {
+  height: 5px;
+  width: 50%;
+  background-color: orangered;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+#title {
+  color: red;
+}
+.phone-container {
+  position: relative;
+  float: left;
+}
+.phone-container-items {
+  margin-top: 50px;
+  margin-left: 50px;
+  position: absolute;
+}
+#equitise-video {
+  width: 262px;
+  height: 469px;
+  margin-left: 22px;
+  margin-top: 73px;
+}
+.message-container {
+  min-width: 600px;
+  max-width: 600px;
+  margin-left: 330px;
+}
+.user-container{
+  border: 2px solid orangered;
+  border-radius: 10px;
+  background: white;
+  padding: 20px;
+  font-weight: bold;
+  width: 270px;
+  height: 240px;
+  font-style: italic;
+  text-align: center;
+  margin: auto;
+}
+.user-input {
+  float: right;
+  clear: both;
+  width: 150px;
+}
+.user-btn {
+  width: 150px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: orangered;
+  border: 2px solid orangered;
+  background-color: white;
+}
+.user-btn:hover {
+  color: white;
+  background-color: orangered;
+}
+.offer-btn {
+  width: 100%;
+  height: 60px;
+}
